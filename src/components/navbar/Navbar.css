@@ -1,0 +1,79 @@
+.navbar {
+  display: flex;
+  padding: 3rem;
+}
+.navbar > img {
+}
+.other {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.9rem;
+  margin-left: 5rem;
+}
+.other > a {
+  list-style: none;
+  text-decoration: none;
+  font-family: Century Gothic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-left: 1.8em;
+}
+.sign {
+  display: flex;
+  margin-top: 1.2rem;
+  justify-content: flex-end;
+  flex: 1;
+}
+.signin {
+  border: hidden;
+  border-radius: 4rem;
+  height: 5vh;
+  width: 10vw;
+  text-align: center;
+  line-height: 2em;
+  background: transparent;
+}
+.signup {
+  border: 0.1em solid #22a75d;
+  border-radius: 4rem;
+  height: 5vh;
+  width: 10vw;
+  text-align: center;
+  line-height: 2em;
+  background: transparent;
+}
+.signin > a {
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+.signup > a {
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu-icon {
+  padding: 1.8rem;
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .other {
+    display: none;
+  }
+  .sign {
+    display: none;
+  }
+  .menu-icon {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    margin-top: 1rem;
+    padding: 1rem;
+    margin-right: -2rem;
+  }
+}
